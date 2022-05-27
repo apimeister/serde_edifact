@@ -1,0 +1,16 @@
+[package]
+name = "serde_edifact"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jens Walter <jens@apimeister.com>"]
+license = "MIT OR Apache-2.0"
+keywords = ["edi","edifact","serde"]
+repository = "https://github.com/apimeister/serde_edifact/"
+documentation = "https://docs.rs/serde_edifact/"
+description = "A Serde for Edifact."
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[features]
+debug = []
