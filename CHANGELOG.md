@@ -1,3 +1,7 @@
+# 0.3.0 2023-01-31
+
+* change serializer to `Display`-Trait
+
 # 0.2.0 2023-01-28
 
 * fix edifact serializer
