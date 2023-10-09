@@ -1,3 +1,7 @@
+# 0.4.0 2023-10-09
+
+* change parser to nom
+
 # 0.3.0 2023-01-31
 
 * change serializer to `Display`-Trait

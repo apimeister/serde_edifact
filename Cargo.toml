@@ -1,6 +1,6 @@
 [package]
 name = "serde_edifact"
-version = "0.3.0"
+version = "0.4.0"
 edition = "2021"
 authors = ["Jens Walter <jens@apimeister.com>"]
 license = "MIT OR Apache-2.0"
@@ -11,6 +11,8 @@ description = "A Serde for Edifact."
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
+edifact-types = { version = "0.4" }
+nom = "7"
 
 [features]
 debug = []
